@@ -62,9 +62,45 @@
 
     </div>
 
-    <div id="mreze" style="display:none;" class = "item">
-        <h2>mreze</h2>
-        <p>Lorem ipsulm dolor sit amet rem adipisci delectus? consectetur adipisicing elit. Ipsam cum, voluptate vero, blanditiis voluptatum aut consectetur et in quam rem adipisci delectus enim quod a laudantium perferendis ad possimus culpa?</p>
+    <div id="mreze" style="display:none;">
+        <ul>
+            <li>
+                <a class="instagram" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a class="tiktok" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="fab fa-tiktok" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a class="google" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a class="facebook" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
     </div>
 
     <div id="onama" style="display:none;" class = "item">
