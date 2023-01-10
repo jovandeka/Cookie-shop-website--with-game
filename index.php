@@ -51,13 +51,14 @@
 
             <span id="boxbuttons">
                 <span class="brojac">
+                Broj klikova
                 <span id="counter">0</span>
-                = broj klikova
                 </span>
                 <span class="reset">
                 <a onclick="ResetGame();"><i class="fas fa-undo-alt"></i></a>
                 </span> 
             </span>
+            <div id="pobeda">Pobedili ste <br> svaka čast !!!</div>
             <div id="boxcard"></div>
 
     </div>
