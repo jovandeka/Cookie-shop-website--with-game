@@ -45,6 +45,7 @@ function ShuffleImages() {
 }
 
 function ResetGame() {
+	document.getElementById('pobeda').style.display = 'none';
 	ShuffleImages();
 	$(Source + " div img").hide();
 	$(Source + " div").css("visibility", "visible");
@@ -95,7 +96,7 @@ function OpenCard() {
 		$("#counter").html("" + Counter);
 
 		if (ImgFound == ImgSource.length) {
-			$("#counter").prepend('<span id="success">Pobedili ste! </span>');
+			document.getElementById('pobeda').style.display = 'block';
 		}
 	}
 }
