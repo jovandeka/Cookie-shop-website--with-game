@@ -23,10 +23,7 @@ body{
 	margin: 0;
 	padding: 0;
 }
-i {
-	margin-right: 10px;
-}
-/*----------bootstrap-navbar-css------------*/
+
 .navbar-logo{
 	padding: 15px;
 	color: #fff;
@@ -154,7 +151,6 @@ i {
     left: -25px;
 }
 
-
 @media(min-width: 992px){
 	.navbar-expand-custom {
 	    -ms-flex-flow: row nowrap;
@@ -212,14 +208,43 @@ i {
 
 
 #igrica {
-	margin: 5% auto;
-	width: 640px;
+	margin: auto;
+	width: 550px;
   font-family: 'Press Start 2P', 'Pacifico', sans-serif;
   font-weight: bold;
+  position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
 }
+#pobeda {
+  width: 100%;
+  font-family: 'Press Start 2P', 'Pacifico', sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+  display: none;
+  -webkit-text-stroke: 0.5px black;
+  position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+  animation: zoomup 0.8s linear infinite;
+}
+@keyframes zoomup {
+  0%,
+  100% {
+    color: #ffff00;
+    top: 53%;
+  }
+  50% {
+    color: #15ff00;
+    top: 55%;
+  }
+}
+
 #boxcard {
 	z-index: 1;
-  margin-left: 7%;
 }
 #boxcard div{
 	float: left;
@@ -260,6 +285,7 @@ i {
 	cursor: pointer;
 }
 
+
 #mreze ul {
 	position:absolute;
 	top:50%;
@@ -268,10 +294,10 @@ i {
 	margin:0;
 	padding:0;
 	display:flex;
-  }
+}
 #mreze  ul li {
 	list-style:none;
-  }
+}
 #mreze  ul li a {
 	display:block;
 	position:relative;
@@ -284,109 +310,113 @@ i {
 	color:#404040;
 	margin: 0 30px;
 	transition:.5s;
-  }
+}
 #mreze ul li a span {
 	position:absolute;
 	transition: transform .5s;
-  }
+}
 #mreze ul li a span:nth-child(1),
 #mreze ul li a span:nth-child(3){
 	width:100%;
 	height:3px;
 	background:#404040;
-  }
+}
 #mreze ul li a span:nth-child(1) {
 	top:0;
 	left:0;
 	transform-origin: right;
-  }
+}
 #mreze ul li a:hover span:nth-child(1) {
 	transform: scaleX(0);
 	transform-origin: left;
 	transition:transform .5s;
-  }
+}
   
 #mreze ul li a span:nth-child(3) {
 	bottom:0;
 	left:0;
 	transform-origin: left;
-  }
+}
 #mreze ul li a:hover span:nth-child(3) {
 	transform: scaleX(0);
 	transform-origin: right;
 	transition:transform .5s;
-  }
+}
   
 #mreze ul li a span:nth-child(2),
 #mreze ul li a span:nth-child(4){
 	width:3px;
 	height:100%;
 	background:#404040;
-  }
+}
 #mreze ul li a span:nth-child(2) {
 	top:0;
 	left:0;
 	transform:scale(0);
 	transform-origin: bottom;
-  }
+}
 #mreze ul li a:hover span:nth-child(2) {
 	transform: scale(1);
 	transform-origin: top;
 	transition:transform .5s;
-  }
+}
 #mreze ul li a span:nth-child(4) {
 	top:0;
 	right:0;
 	transform:scale(0);
 	transform-origin: top;
-  }
+}
 #mreze ul li a:hover span:nth-child(4) {
 	transform: scale(1);
 	transform-origin: bottom;
 	transition:transform .5s;
-  }
+}
   
 #mreze .facebook:hover {
 	color: #067cc6;
-  }
+}
 #mreze .facebook:hover span { 
 	background: #067cc6;
-  }
+}
 #mreze .tiktok:hover {
 	color: #0ac3e4;
-  }
+}
 #mreze .tiktok:hover span { 
 	background: #0ac3e4;
-  }
+}
 #mreze .instagram:hover {
 	color: #c32a88;
-  }
+}
 #mreze .instagram:hover span { 
 	background: #c32a88;
-  }
+}
 #mreze .google:hover {
 	color: #dd4b39;
-  }
+}
 #mreze .google:hover span { 
 	background: #dd4b39;
-  }
+}
 #mreze ul li a .tiktok {
 	color: #0ac3e4;
-  }
+}
 #mreze ul li a:hover:nth-child(3) {
 	color: #c32aa3;
-  }
+}
 #mreze  ul li a:hover:nth-child(4) {
 	color: #dd4b39;
-  }
+}
 
 
 .item {
+  position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
   width: 100%;
   padding: 50px;
   height: 280px;
   text-align: center;
   background-color: #ffffff;
   border-bottom: 1px solid #ccc;
-  
+  border-top: 1px solid #ccc;
 }
