@@ -114,9 +114,123 @@
         <p>Lorem ipsulm dolor sit amet rem adipisci delectus? consectetur adipisicing elit. Ipsam cum, voluptate vero, blanditiis voluptatum aut consectetur et in quam rem adipisci delectus enim quod a laudantium perferendis ad possimus culpa?</p>
     </div>
 
-    <div id="galerija" style="display:none;" class = "item">
-        <h2>galerija</h2>
-        <p>Lorem ipsulm dolor sit amet rem adipisci delectus? consectetur adipisicing elit. Ipsam cum, voluptate vero, blanditiis voluptatum aut consectetur et in quam rem adipisci delectus enim quod a laudantium perferendis ad possimus culpa?</p>
+    <div id="galerija" style="display:none;">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="14"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="15"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="16"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="17"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="18"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="19"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="20"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="21"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="22"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="23"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="24"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="25"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (1).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (2).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (3).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (4).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (5).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (6).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (7).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (8).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (9).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (10).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (11).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (12).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (13).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (14).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (15).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (16).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (17).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (18).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (19).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (20).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (21).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (22).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (23).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (24).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (25).jpg" >
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-50" src="Slike/medenjaci/medenjaci (26).jpg" >
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
     </div>
 
     <div id="naslovna" class = "item">
