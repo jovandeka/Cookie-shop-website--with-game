@@ -17,7 +17,7 @@
 
 </head>
 <body class="index-bg">
-    <nav class="navbar navbar-expand-custom navbar-mainbg">
+    <nav class="navbar navbar-expand-custom navbar-mainbg" style="z-index: 1;">
         <a class="navbar-brand navbar-logo" href="#"><img src="./Slike/Ikonice/spremanje2 slicica.png" style="width:30px;">&nbsp;Pojedi Sve Kolačiće</a>
         <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars text-white"></i>
@@ -223,13 +223,13 @@
                 <div class="carousel-item">
                 <img class="d-block w-50" src="Slike/medenjaci/medenjaci (26).jpg" >
                 </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </a>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
         </div>
     </div>
 
