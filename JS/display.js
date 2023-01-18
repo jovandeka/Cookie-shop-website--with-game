@@ -26,7 +26,12 @@ NavNaslovna.onclick = function () {
         DivONama.style.display = "none";
         DivMreze.style.display = "none";
         DivIgrica.style.display = "none";
+
         DivNaslovna.style.display = "block";
+        DivNaslovna.style.opacity = "0";
+        DivNaslovna.style.transition = ".7s";
+        setTimeout(function(){DivNaslovna.style.opacity = "1";}, 50);
+
     }
 };
 
@@ -38,50 +43,70 @@ NavGalerija.onclick = function () {
         DivONama.style.display = "none";
         DivMreze.style.display = "none";
         DivIgrica.style.display = "none";
+        
         DivGalerija.style.display = "block";
+        DivGalerija.style.opacity = "0";
+        DivGalerija.style.transition = ".7s";
+        setTimeout(function(){DivGalerija.style.opacity = "1";}, 50);
     }
 };
 
 NavCenovnik.onclick = function () {
     if (DivCenovnik.style.display == "none") {
-        DivCenovnik.style.display = "block";
         DivNaslovna.style.display = "none";
         DivGalerija.style.display = "none";
         DivONama.style.display = "none";
         DivMreze.style.display = "none";
         DivIgrica.style.display = "none";
+
+        DivCenovnik.style.display = "block";
+        DivCenovnik.style.opacity = "0";
+        DivCenovnik.style.transition = ".7s";
+        setTimeout(function(){DivCenovnik.style.opacity = "1";}, 50);
     }
 };
 
 NavONama.onclick = function () {
     if (DivONama.style.display == "none") {
-        DivONama.style.display = "block";
         DivNaslovna.style.display = "none";
         DivGalerija.style.display = "none";
         DivCenovnik.style.display = "none";
         DivMreze.style.display = "none";
         DivIgrica.style.display = "none";
+
+        DivONama.style.display = "block";
+        DivONama.style.opacity = "0";
+        DivONama.style.transition = ".7s";
+        setTimeout(function(){DivONama.style.opacity = "1";}, 50);
     }
 };
 
 NavMreze.onclick = function () {
     if (DivMreze.style.display == "none") {
-        DivMreze.style.display = "block";
         DivNaslovna.style.display = "none";
         DivGalerija.style.display = "none";
         DivCenovnik.style.display = "none";
         DivONama.style.display = "none";
         DivIgrica.style.display = "none";
+
+        DivMreze.style.display = "block";
+        DivMreze.style.opacity = "0";
+        DivMreze.style.transition = ".7s";
+        setTimeout(function(){DivMreze.style.opacity = "1";}, 50);
     }
 };
 
 NavIgrica.onclick = function () {
     if (DivIgrica.style.display == "none") {
-        DivIgrica.style.display = "block";
         DivNaslovna.style.display = "none";
         DivGalerija.style.display = "none";
         DivCenovnik.style.display = "none";
         DivONama.style.display = "none";
         DivMreze.style.display = "none";
+
+        DivIgrica.style.display = "block";
+        DivIgrica.style.opacity = "0";
+        DivIgrica.style.transition = ".7s";
+        setTimeout(function(){DivIgrica.style.opacity = "1";}, 50);
     }
 };
