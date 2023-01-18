@@ -248,6 +248,7 @@
     <script src="./JS/navbar.js"></script>
     <script src="./JS/display.js"></script>
     <script src="./JS/game.js"></script>
+    <script src="./JS/gallery.js"></script>
 
 </body>
 </html>
