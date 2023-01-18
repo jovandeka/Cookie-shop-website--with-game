@@ -6,14 +6,14 @@
 @import url('https://fonts.googleapis.com/css?family=Press Start 2P');
 
 footer{
-  font-family: 'Rubik', sans-serif;
+  	font-family: 'Rubik', sans-serif;
 }
 
 div.footer {
-  position:fixed;
-  bottom:0;
-  width: 100%;
-  opacity: 60%;
+	position:fixed;
+	bottom:0;
+	width: 100%;
+	opacity: 60%;
 }
 
 body{
@@ -23,23 +23,23 @@ body{
 	margin: 0;
 	padding: 0;
 }
-
+													/* --- NAVIGACIJA --- */
 .navbar-logo{
 	padding: 15px;
 	color: #fff;
-  font-family: 'Pacifico', sans-serif;
-  font-size: large;
-  font-weight: bold;
-  letter-spacing: 3px;
+	font-family: 'Pacifico', sans-serif;
+	font-size: large;
+	font-weight: bold;
+	letter-spacing: 3px;
 }
 
 .navbar-logo:hover{
 	padding: 15px;
 	color: #fff;
-  font-family: 'Pacifico', sans-serif;
-  font-size: large;
-  font-weight: bold;
-  letter-spacing: 3px;
+	font-family: 'Pacifico', sans-serif;
+	font-size: large;
+	font-weight: bold;
+	letter-spacing: 3px;
 }
 
 .navbar-mainbg{
@@ -175,6 +175,15 @@ body{
 
 
 @media (max-width: 991px){
+	.navbar{
+		opacity: 80%;
+	}
+	.navbar-logo{
+		font-size: small;
+	}
+	.navbar-logo:hover{
+		font-size: small;
+	}
 	#navbarSupportedContent ul li a{
 		padding: 12px 30px;
 	}
@@ -206,41 +215,43 @@ body{
 	}
 }
 
-
+														/* --- IGRICA --- */
 #igrica {
 	margin: auto;
 	width: 550px;
-  font-family: 'Press Start 2P', 'Pacifico', sans-serif;
-  font-weight: bold;
-  position:absolute;
+	font-family: 'Press Start 2P', 'Pacifico', sans-serif;
+	font-weight: bold;
+	font-size: large;
+	position:absolute;
 	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%);
+	transition:.3s;
 }
 #pobeda {
-  width: 100%;
-  font-family: 'Press Start 2P', 'Pacifico', sans-serif;
-  font-weight: bold;
-  font-size: x-large;
-  text-align: center;
-  display: none;
-  -webkit-text-stroke: 0.5px black;
-  position:absolute;
+	width: 100%;
+	font-family: 'Press Start 2P', 'Pacifico', sans-serif;
+	font-weight: bold;
+	font-size:x-large;
+	text-align: center;
+	display: none;
+	-webkit-text-stroke: 0.5px black;
+	position:absolute;
 	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%);
-  animation: zoomup 0.8s linear infinite;
+ 	animation: zoomup 0.8s linear infinite;
 }
 @keyframes zoomup {
-  0%,
-  100% {
-    color: #ffff00;
-    top: 53%;
-  }
-  50% {
-    color: #15ff00;
-    top: 55%;
-  }
+	0%,
+	100% {
+		color: #ffff00;
+		top: 53%;
+	}
+	50% {
+		color: #15ff00;
+		top: 55%;
+	}
 }
 
 #boxcard {
@@ -256,21 +267,24 @@ body{
 	cursor: pointer;
 	border-radius: 10px;
 	box-shadow: 0 1px 5px rgba(0,0,0,.5);
-  background: #ebebeb;
+  	background: #ebebeb;
 	z-index: 2;
 }
+
 #boxcard div img {
 	display: none;
-  width: 80px;
-  height: 80px;
+ 	width: 80px;
+  	height: 80px;
 	border-radius: 10px;
 	z-index: 3;
 }
 #boxbuttons {
-  text-align: center;
+	width: 95%;
+	text-align: center;
 	margin: 20px;
 	display: block;
 }
+
 #boxbuttons .brojac {
 	background: #c3e5ff;
 	padding: 10px;
@@ -280,12 +294,12 @@ body{
 }
 #boxbuttons .reset {
 	background: #ff8446;
-  padding: 10px;
+  	padding: 10px;
 	border-radius: 10px;
 	cursor: pointer;
 }
 
-
+														/* --- MREZE --- */
 #mreze ul {
 	position:absolute;
 	top:50%;
@@ -294,6 +308,7 @@ body{
 	margin:0;
 	padding:0;
 	display:flex;
+	max-width: 100%;
 }
 #mreze  ul li {
 	list-style:none;
@@ -310,7 +325,7 @@ body{
 	color:#404040;
 	margin: 0 30px;
 	transition:.5s;
-}
+} 
 #mreze ul li a span {
 	position:absolute;
 	transition: transform .5s;
@@ -406,7 +421,7 @@ body{
 	color: #dd4b39;
 }
 
-
+														/* --- GALERIJA --- */
 #galerija {
 	position:absolute;
 	top:50%;
@@ -414,28 +429,37 @@ body{
 	transform:translate(-50%,-50%);
 }
 
-.carousel {
-	position: relative;
+.carousel{
 	width: 800px;
+	transition: 0.3s;
 }
-
 .carousel-item img {
 	object-fit: cover;
+	border-radius: 3%;
 	transform:translate(50%,0);
+	max-width: 100%;
 	height: 500px;
 	overflow-y: hidden;
 }
 
 .carousel-control-prev-icon {
+	background-color: #e7dbc6;
+	border-radius: 20%;
 	transform: scale(1.5);
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
 .carousel-control-next-icon {
+	background-color: #e7dbc6;
+	border-radius: 20%;
 	transform: scale(1.5);
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
-.carousel .carousel-indicators li {
+.carousel-indicators{
 	transform:translate(0,75px);
+	background-color: #e7dbc6;
+	border-radius: 20px;
+}
+.carousel .carousel-indicators li {
 	background-color: rgba(70, 70, 70, 0.489);
 }
 
@@ -445,15 +469,86 @@ body{
 
 
 .item {
-  position:absolute;
+  	position:absolute;
 	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%);
-  width: 100%;
-  padding: 50px;
-  height: 280px;
-  text-align: center;
-  background-color: #ffffff;
-  border-bottom: 1px solid #ccc;
-  border-top: 1px solid #ccc;
+	width: 100%;
+	padding: 50px;
+	height: 280px;
+	text-align: center;
+	background-color: #ffffff;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+
+
+@media screen and (max-width: 600px),
+	screen and (max-height: 700px) { 
+	
+	#mreze  ul li a {
+		margin: 15px;
+		width:50px;
+		height:50px;
+		line-height:50px;
+		font-size:20px;
+	}
+
+	#igrica{
+		width: 300px;
+		font-size: x-small;
+	}
+	#pobeda{
+		width: 50%;
+		font-size: small;
+	}
+	#boxcard div{
+		width: 50px;
+		height: 50px;
+		margin: 2px;
+		padding: 2px;
+		border: 2px solid #C68642;
+		border-radius: 5px;
+	}
+	#boxcard div img {
+		width: 40px;
+		height: 40px;
+		border-radius: 5px;
+	}
+	#boxbuttons {
+		width: 80%;
+	}
+
+	.carousel{
+		width: 400px;
+	}
+	.carousel-item img {
+		border-radius: 1%;
+		transform:translate(50%,0);
+		max-width: 50%;
+		height: 250px;
+	}
+	
+	.carousel-control-prev-icon {
+		border-radius: 10%;
+		transform: scale(1);
+		}
+	.carousel-control-next-icon {
+		border-radius: 10%;
+		transform: scale(1);
+		}
+} 
+@media screen and (max-width: 300px) { 
+
+	#mreze ul { 
+		flex-direction: column;
+
+	}
+	#mreze  ul li a {
+		margin: 15px 0;
+		width:50px;
+		height:50px;
+		line-height:50px;
+		font-size:20px;
+	}
 }
